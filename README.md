@@ -404,18 +404,27 @@ selectedTags.clear();
 
 ## 🌐 Deploy
 
-Projeyi deploy etmek için:
+### 🔗 Canlı Demo
+
+- **Ana Uygulama:** [https://case-dedecta.vercel.app/](https://case-dedecta.vercel.app/)
+- **Storybook:** [https://case-dedecta.vercel.app/storybook](https://case-dedecta.vercel.app/storybook)
+
+### Build Komutları
 
 ```bash
-# Production build
+# Sadece ana uygulama
 npm run build
 
-# dist klasörünü deploy et
+# Sadece Storybook
+npm run build-storybook
+
+# Her ikisi birden (Vercel için)
+npm run build:all
 ```
 
 **Desteklenen Platformlar:**
 
-- [Vercel](https://vercel.com)
+- [Vercel](https://vercel.com) ✅ (Aktif)
 - [Netlify](https://netlify.com)
 - [Cloudflare Pages](https://pages.cloudflare.com)
 - [GitHub Pages](https://pages.github.com)
